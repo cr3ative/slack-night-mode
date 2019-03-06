@@ -192,7 +192,9 @@ textarea {
   }
 
   &.btn_attachment {
+    background-color: $color-shade-darkest;
     border-color: $color-shade-light;
+    color: $base-link-color;
 
     &:hover,
     &:focus {
@@ -341,10 +343,4 @@ textarea {
 
 .p-share_dialog_message_input {
   color: $base-font-color;
-}
-
-.c-texty_input {
-  .ql-placeholder {
-    color: $base-font-color;
-  }
 }
