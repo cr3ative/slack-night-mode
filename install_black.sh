@@ -4,7 +4,7 @@
 #
 #get latest css
 echo "Grabbing latest CSS version..."
-curl -o /Applications/Slack.app/Contents/Resources/black.css https://raw.githubusercontent.com/cr3ative/slack-night-mode/master/css/raw/black.css
+curl -o /Applications/Slack.app/Contents/Resources/black.css https://raw.githack.com/laCour/slack-night-mode/master/css/black.css
 #make slack load css
 if [[ `grep 'filePath = "/Applications/Slack.app/Contents/Resources/black.css"' /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js | wc -l` -lt 1 ]]; then
     echo 'Installed CSS loader.';
